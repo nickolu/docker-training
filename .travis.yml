@@ -9,7 +9,7 @@ deploy:
     region: "use-east-2"
     app: "docker-training"
     env: "DockerTraining-env"
-    bucket_name: "elasticbeanstalk-us-east-2-914758622339"
+    bucket_name: "docker-training"
     bucket_path: "docker-training"
     on:
         branch: master

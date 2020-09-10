@@ -7,7 +7,7 @@ script:
 deploy:
     provider: elasticbeanstalk
     region: "use-east-2"
-    app: "docker-react"
+    app: "docker-training"
     env: "DockerTraining-env"
     bucket_name: "elasticbeanstalk-us-east-2-914758622339"
     bucket_path: "docker-training"

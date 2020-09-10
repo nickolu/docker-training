@@ -8,7 +8,7 @@ deploy:
     provider: elasticbeanstalk
     region: "use-east-2"
     app: "docker-react"
-    env: "DockerReact-env"
+    env: "DockerTraining-env"
     bucket_name: "elasticbeanstalk-us-east-2-914758622339"
     bucket_path: "docker-training"
     on:

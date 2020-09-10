@@ -10,7 +10,7 @@ deploy:
     app: "docker-training"
     env: "DockerTraining-env"
     bucket_name: "elasticbeanstalk-us-east-2-914758622339"
-    bucket_path: "docker-react"
+    bucket_path: "docker-training"
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY
